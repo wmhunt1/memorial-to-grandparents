@@ -5,6 +5,7 @@ import Album from "./components/Album/index.jsx"
 function App() {
   return (
     <div className="App">
+      <h1>In Loving Memory</h1>
    <Album/>
     </div>
   );
