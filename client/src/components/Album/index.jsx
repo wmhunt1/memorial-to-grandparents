@@ -11,7 +11,6 @@ import Img6 from "../../assets/album/img6.jpg"
 function Album() {
     return (
         <div className="carouselPad">
-
             <Row className="justify-content-center mb-4">
                 <Carousel>
                     <Carousel.Item>
