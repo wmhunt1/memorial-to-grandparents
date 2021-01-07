@@ -1,18 +1,15 @@
 import React from "react";
 import "./App.css";
-import Album from "./components/Album/index.jsx"
-import HeadStone from "./components/HeadStone/index.jsx"
-import Interview from "./components/Interview/index.jsx"
+import Interview from "./components/Interview/index.jsx";
+import HomePage from "./views/HomePage.js";
+import PhotoAlbum from "./views/PhotoAlbum.js";
 
 function App() {
   return (
     <div className="App">
-      <h1>In Loving Memory</h1>
-      <HeadStone />
-      <break></break>
+      <HomePage/>
+      <PhotoAlbum/>
       <Interview/>
-      <h2>Memories</h2>
-      <Album />
     </div>
   );
 }
